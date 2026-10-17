@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>COOKIEWATCH</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <img src="icons/icon48.png" alt="">
+      <div><h1>COOKIEWATCH</h1><p id="site">—</p></div>
+    </div>
+    <button id="reset" class="ghost" title="Clear results for this tab">Reset</button>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="ring"><svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="27" class="track"/><circle cx="32" cy="32" r="27" class="bar" id="bar"/></svg><span id="count">0</span></div>
+    <div class="status">
+      <h2 id="headline">Scanning…</h2>
+      <p id="subline">Watching third-party cookie traffic on this tab.</p>
+    </div>
+  </section>
+
+  <section class="stats">
+    <div><b id="s-known">0</b><span>Known trackers</span></div>
+    <div><b id="s-domains">0</b><span>Domains</span></div>
+    <div><b id="s-sent">0</b><span>Cookies sent</span></div>
+    <div><b id="s-set">0</b><span>Cookies set</span></div>
+  </section>
+
+  <section class="list" id="list"></section>
+
+  <footer>
+    <label class="switch"><input type="checkbox" id="overlay"><span></span>On-page alert widget</label>
+    <p class="credit">Made by your friendly neighborhood bear Brizzly 🐻</p>
+  </footer>
+  <script src="popup.js" type="module"></script>
+</body>
+</html>

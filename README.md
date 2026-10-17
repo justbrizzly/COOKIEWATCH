@@ -4,6 +4,8 @@
 
 COOKIEWATCH is a Chrome extension that watches every cookie your browser exchanges with outside companies. When a third party reads or plants a cookie on the page you're visiting, COOKIEWATCH flags it and tells you which company is behind it: Google, Meta, LinkedIn, LiveRamp, and many more.
 
+<img width="380" height="659" alt="image" src="https://github.com/user-attachments/assets/04669feb-f8bd-469e-a609-e7b9a3821a41" />
+
 ---
 
 ## Features
